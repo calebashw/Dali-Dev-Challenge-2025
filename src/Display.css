@@ -1,58 +1,28 @@
+body {
+    margin-top: 0;
+}
+
 .result-display {
-    margin: 20px;
     text-align: center;
+    margin: 20px auto;
     font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .message-container {
+    margin-bottom: 20px;
   }
   
   .image-container {
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
   }
   
-  .playlist-cover {
-    width: 300px;
+  .unsplash-image {
+    width: 80%;
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
-  }
-  
-  .music-container a {
-    text-decoration: none;
-    color: #1db954;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  
-  .tracks-container {
-    margin-top: 20px;
-  }
-  
-  .tracks-container ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .track {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 10px 0;
-  }
-  
-  .track-info {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .play-button {
-    padding: 5px 10px;
-    font-size: 14px;
-    background-color: #1db954;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .play-button:hover {
-    background-color: #1ed760;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
   
