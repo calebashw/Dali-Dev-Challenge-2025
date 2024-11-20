@@ -1,4 +1,3 @@
-/* General Styles */
 body {
   margin: 0;
   font-family: 'Roboto', Arial, sans-serif;
@@ -11,7 +10,6 @@ iframe {
   padding: 0;
 }
 
-/* Centered Container */
 .app {
   max-width: 800px;
   margin: 0 auto;
@@ -19,7 +17,6 @@ iframe {
   text-align: center;
 }
 
-/* Header */
 header {
   margin-bottom: 30px;
 }
@@ -28,7 +25,7 @@ header h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 10px 0;
-  color: #1db954; /* Spotify Green */
+  color: #1db954;
 }
 
 header p {
@@ -36,7 +33,6 @@ header p {
   color: #666;
 }
 
-/* Mood Selector Section */
 .mood-and-music-buttons {
   margin: 20px auto 40px;
   display: flex;
@@ -70,7 +66,6 @@ header p {
   transform: scale(0.95);
 }
 
-/* Spotify Embed Section */
 .embedded-spotify {
   margin: 20px auto;
   width: 100%;
@@ -102,7 +97,7 @@ header p {
 }
 
 .result-display img {
-  margin-top: 10px; /* Ensure minimal spacing above the image */
+  margin-top: 10px;
   width: 80%;
   max-width: 600px;
   height: auto;
@@ -110,7 +105,6 @@ header p {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
 footer {
   margin-top: 50px;
   font-size: 14px;

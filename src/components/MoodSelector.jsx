@@ -1,5 +1,3 @@
-// src/components/MoodSelector.js
-
 import React from 'react';
 
 function MoodSelector({ setMood }) {
