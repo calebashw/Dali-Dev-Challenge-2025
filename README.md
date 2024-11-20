@@ -8,6 +8,11 @@ It can be found here: [Spotify Playlist Recommender](https://dali-dev-challenge-
 ![Picture of application](./public/screenshot_one.png)
 ![Picture of application](./public/screenshot_two.png)
 
+## Instructions to setup locally:
+1. Clone the repository into VSCode or the IDE of your choice. 
+2. Setup the environment variables including the Spotify client and secret keys, unsplash client key, and a redirect URI
+3. 'npm install'
+
 ## Learning Journey:
 After searching through some APIs, I pretty quickly found and settled upon the Spotify API. I read through its documentation and uses, and was blown away by the amount of things you're able to do with it. After this I knew I wanted to use it as the primary API in my application. I decided to add in the pictures as a nice touch using the unsplash API and effectively searching and returning an image based on the mood selected from their API. I found this to be a nice touch and allowed for a little more calmness and empathy for whoever may use this.
 
