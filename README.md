@@ -11,7 +11,14 @@ It can be found here: [Spotify Playlist Recommender](https://dali-dev-challenge-
 ## Instructions to setup locally:
 **NOTE: You need a spotify account to use this**
 1. Clone the repository into VSCode or the IDE of your choice. 
-2. Setup the environment variables including the Spotify client and secret keys, unsplash client key, and a redirect URI
+2. Setup the environment variables including the Spotify client and secret keys, unsplash client key, and a redirect URI. Your .env file should look something like this:
+```
+REACT_APP_SPOTIFY_CLIENT_ID=your_spotify_client_id
+REACT_APP_SPOTIFY_REDIRECT_URI=http://localhost:3000
+REACT_APP_UNSPLASH_ACCESS_KEY=your_unsplash_access_key
+REACT_APP_SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+```
+You will have to get these from the Spotify Developer dashboard and Unsplash developer dashboard.
 3. `npm install` to get all necesssary dependencies.
 4. `npm start` to start. This will setup a locally hosted version you can access in your browser.
 
